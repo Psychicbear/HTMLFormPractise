@@ -12,19 +12,42 @@
         <section class="content">
             <div class="sign-in">
                 <div>
-                    <button>Sign In!</button>
-                </div>
-                <div>
                     <p>Have an existing account?</p>
                     <p><a href="/forgot">Forget your login details?</a></p>
                 </div>
+                <div>
+                    <button>Sign In!</button>
+                </div>
             </div>
-            <div class="login-container">
-                <form action="/submit-login" method="post">
-                
-                </form>
+            <div class="center-content">
+                <h1>Signup form</h1>
+                <div class="login-container">
+                    <h3>Create Account</h3>
+                    <p>Create an account to enjoy the benefits of this site</p>
+                    <form action="#" method="post">
+                        <label class="form-label" for="usr-email">Email</label>
+                        <input class="form-input" type="email" name="usr-email" placeholder="name@email.com" required>
+                        
+
+                        <label class="form-label" for="usr-phone">Phone (optional)</label>
+                        <input class="form-input" type="tel" name="usr-phone" placeholder="0412 345 678">
+                        
+
+                        <label class="form-label" for="usr-pass">Password</label>
+                        <input class="form-input" type="password" name="usr-pass" required>
+                        
+                        <button>Create Account Now!</button>
+                    </form>
+                    <p>Terms and conditions apply.</p>
+                    <p>To read the terms, <a href="/monkey"target="_blank">click here</a>.</p>
+                </div>
             </div>
             <footer>
+                <ul class="footer-links">
+                    <li>Legal</li>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                </ul>
                 <p>Copyright Riley Schofield 2021</p>
             </footer>
         </section>
